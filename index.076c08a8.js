@@ -1,0 +1,2 @@
+var e=document.querySelectorAll("input");Array.from(e).map(function(e){return{name:e.getAttribute("name"),id:e.getAttribute("id")}}).forEach(function(t,r){var n=document.createElement("label");n.textContent=t.name,n.setAttribute("for",t.id),n.setAttribute("class","field-label"),e[r].parentNode.insertBefore(n,e[r]),e[r].setAttribute("placeholder",t.name[0].toUpperCase()+t.name.slice(1))});
+//# sourceMappingURL=index.076c08a8.js.map
